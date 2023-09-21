@@ -54,7 +54,7 @@ commande ARGS, par exemple :
     gprof OPTIONS EXECUTABLE gmon.out > OUTFILE
     gprof2dot OUTFILE | dot -Tpdf -o output.pdf
 
-gprof ne fonctionne pas avec les librairies dynamiques
+gprof ne fonctionne pas avec les librairies dynamiques.
 
 ## Valgrind
 
