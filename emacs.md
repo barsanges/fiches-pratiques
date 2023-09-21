@@ -2,6 +2,8 @@
 
 ## Raccourcis par défaut
 
+Raccourci   | Commande
+----------- | --------
 C-x C-f		| Ouvrir un fichier
 C-x C-s		| Sauver le fichier
 C-g	        | Quitter le minibuffer
@@ -32,6 +34,8 @@ C-x C-c     | Fermer Emacs (utile en mode 'no window')
 
 ## Raccourcis personnels
 
+Raccourci   | Commande
+----------- | --------
 C-tab       | Complétion (binding par défaut : M-/)
 M-up        | Echanger la ligne courante avec la ligne au-dessus
 M-down      | Echanger la ligne courante avec la ligne en-dessous
@@ -48,6 +52,8 @@ M-f         | Aller à la fin du paragraphe (remplace 'forward-word')
 
 ## Commandes inhabituelles
 
+Raccourci                            | Commande
+------------------------------------ | --------
 C-h w command-name                   | Trouver le raccourci correspondant à command-name
 C-h k key-sequence                   | Trouver la commande correspondant à key-sequence
 M-x describe-bindings                | Lister les raccourcis existants
