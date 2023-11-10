@@ -66,6 +66,11 @@ fichier ; si le fichier n'existe pas, il est créé
   * `chmod --reference other this` : copie les permissions du fichier
     ou du dossier `other`
 
+`ln REF SHORTCUT` : créer un lien physique (hard link) vers REF
+  * Pour vérifier si deux fichiers X et Y sont liés par un lien
+    physique, vérifier leur inode : `ls -li X Y` doit renvoyer la même
+    valeur d'inode pour X et Y
+
 `ln -s REF SHORTCUT` : créer un lien symbolique vers REF
 
 `readlink LK` : lire le lien symbolique LK
