@@ -112,7 +112,9 @@ travail
   * `git remote show REMOTE` : afficher des informations sur le
     répertoire distant REMOTE
   * `git remote set-url REMOTE URL` : changer l'URL associée au
-    répertoire distant REMOTE
+    répertoire distant REMOTE (en particulier : `git remote set-url
+    origin git@github.com:OWNER/REPOSITORY.git` pour se connecter en
+    SSH à un répertoire distant sur GitHub)
   * `git remote add REMOTE URL` : ajouter le dépôt REMOTE
   * `git remote prune REMOTE` : supprimer dans le dépôt local les
     références aux branches de REMOTE qui n'existent plus dans REMOTE
