@@ -36,13 +36,6 @@ dans la chaîne de caractères correspondant à `$PATH`
   * `tree -I MOTIF` : filtre les éléments correspondants au motif `MOTIF`.
   * `tree -d` : n'affiche que les dossiers
 
-`exa` : remplacement de `ls` et de `tree`
-  * `exa -l` = `ls -l`
-  * `exa -l --git` : afficher aussi l'état au sens git
-  * `exa --tree` : affiche l'arborescence du dossier
-  * `exa --tree --level N` : affiche l'arborescence sur les `N`
-    premiers niveaux seulement
-
 `cp FILE1 FILE2` : copier un fichier
   * `cp -R DIR1 DIR2` : copie récursivement un dossier
 
