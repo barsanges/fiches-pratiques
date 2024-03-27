@@ -92,6 +92,10 @@ avec l'extension `pyc` dans le répertoire courant.
     commande (sinon, on supprime tout !)
   * `find DIR -wholename *path/*/MYFILE` : permet d'inclure le chemin
      dans la recherche
+  * `find DIR -perm -g+w` : chercher dans `DIR` les fichiers et dossiers pour
+     lesquels a minima le groupe a le droit d'écriture
+  * `find DIR -not -perm 644` : chercher dans `DIR` les fichiers et dossiers
+     qui ont un droit d'accès différent de 644 (-rw-r--r--)
 
 `grep -e "foo"` : chercher la regexp "foo"
   * `grep -i` : ignorer la casse
