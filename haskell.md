@@ -34,6 +34,12 @@ priori une connexion internet)
 `stack exec EXE` : lancer l'exécutable EXE
   * `stack exec -- whereis EXE` : pour trouver l'emplacement de EXE
 
+`stack build --profile` : construire les cibles en mode profiling
+
+`stack exec --profile -- EXE +RTS -p` : lancer l'exécutable EXE en mode
+profiling, ce qui génère un fichier EXE.prof (EXE doit avoir être compilé
+en mode profiling au préalable)
+
 `stack list-dependancies` : lister les dépendances de la cible
   * `stack list-dependancies --test` : lister les dépendances des
      tests
