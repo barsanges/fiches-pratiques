@@ -8,6 +8,6 @@ fichier Latex
 corps de fichier Latex (i.e. : sans préambule)
   * `-r markdown-auto_identifiers` : supprimer les hyperliens ajoutés
     par Pandoc
-  * `--shift-heading-level-by=-1` : supprime le niveau 1 du plan (`#`,
-    généralement le titre du document Markdown) et remonte d'un cran
-    les autres niveaux (`##` correspond alors à `\section`)
+  * `--shift-heading-level-by=-1` : supprimer le niveau 1 du plan
+    (`#`, généralement le titre du document Markdown) et remonter d'un
+    cran les autres niveaux (`##` correspond alors à `\section`)
